@@ -5,7 +5,9 @@
 // import './App.css'
 // acá
 
+import Efemerides from "./Components/Efemerides"
 import Footer from "./Components/Footer"
+import Galeria from "./Components/Galeria"
 import Header from "./Components/Header"
 import Novedades from "./Components/Novedades"
 import ProximosEventos from "./Components/ProximosEventos"
@@ -18,6 +20,8 @@ function App() {
     <Header/>
     <Novedades/>
     <ProximosEventos/>
+    <Efemerides/>
+    <Galeria/>
     <Footer/>
 
     </>

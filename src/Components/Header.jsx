@@ -5,12 +5,10 @@
 function Header() {
     return (
         <>
-            <header className="flex items-center justify-between px-8 py-4 bg-white shadow-sm">
+            <header className="flex items-center justify-between px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-300 shadow-sm">
                 {/* Logo + Título */}
                 <div className="flex items-center space-x-3">
-                    <div className="flex items-center justify-center w-8 h-8 bg-orange-600 rounded-full text-white font-bold">
-                        S
-                    </div>
+                    <img src="/logo.jpg" alt="Logo" class="w-10 h-10 object-contain" />
                     <h1 className="text-lg font-semibold text-gray-800">Unión y Renovación</h1>
                 </div>
 
