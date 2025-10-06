@@ -9,6 +9,7 @@ import Efemerides from "./Components/Efemerides"
 import Footer from "./Components/Footer"
 import Galeria from "./Components/Galeria"
 import Header from "./Components/Header"
+import Hero from "./Components/Hero"
 import Novedades from "./Components/Novedades"
 import ProximosEventos from "./Components/ProximosEventos"
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
     <Header/>
+    <Hero/>
     <Novedades/>
     <ProximosEventos/>
     <Efemerides/>

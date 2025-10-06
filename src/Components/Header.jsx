@@ -8,7 +8,7 @@ function Header() {
             <header className="flex items-center justify-between px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-300 shadow-sm">
                 {/* Logo + Título */}
                 <div className="flex items-center space-x-3">
-                    <img src="/logo.jpg" alt="Logo" class="w-10 h-10 object-contain" />
+                    <img src="/imagenes/logo.jpg" alt="Logo" class="w-10 h-10 object-contain" />
                     <h1 className="text-lg font-semibold text-gray-800">Unión y Renovación</h1>
                 </div>
 
